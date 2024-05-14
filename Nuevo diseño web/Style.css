@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    
+
+}
+
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    
+
+}
+
+.logo {
+        margin-left: 30px;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: green;
+    text-transform: uppercase;
+    font-size: 22px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.navbar a:hover {
+    background: rgb(128, 128, 128);
+}
+
+.header {
+    height: 60vh !important;
+    background: url(https://images.unsplash.com/photo-1586993451228-09818021e309?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center;
+    background-size: cover;
+
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+p {
+    margin-bottom:  40px;
+    font-size: 19px;
+    
+}
+
+.btn {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(8, 5, 10);
+    color: white;
+    text-decoration: none;
+    background: rgb(8, 5, 10);
+    
+   
+
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgb(0, 0, 0.5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: aliceblue;
+    background: brown;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.content-about {
+    background:rgb(41, 41, 44);
+}
+
+.price {
+    background: url(https://images.unsplash.com/photo-1586993451228-09818021e309?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+     padding-top: 30px;
+     background: #171717;
+     padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau {
+        height: 120vh;
+    }
+    .navbar {
+        display: none;
+    }
+}
+
+
+.Tel {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btnp {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(8, 5, 10);
+    color: white;
+    text-decoration: none;
+    background: rgb(8, 5, 10);
+}
+.btnp:hover {
+    background: transparent;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body1 
+    ::after
+    ::before {
+
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'lato';
+}
+
+.icon-cart {
+    width: 40px;
+    height: 40px;
+
+}
+img {
+    max-width: 100%;
+}
+
+.headerp{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+
+}
+
