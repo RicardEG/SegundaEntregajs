@@ -242,3 +242,65 @@ img {
 
 }
 
+.titulo {
+    padding: 100px;
+    margin-top: 25px;
+    font-size: 30px;
+    color: red;
+}
+.Body2 {
+
+    background: url(https://images.unsplash.com/photo-1586993451228-09818021e309?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+    background-position: center;
+    background-size: cover, 100%;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+   
+}
+
+form {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 0 20px black;
+}
+
+
+form h2 {
+    font-size: 38px;
+    color: black;
+    margin-bottom: 35px;
+}
+form button {
+    padding: 18px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid green;
+    margin-bottom: 32px;
+    outline: none;
+    color: white;
+    font-size: 22px;
+
+}
+input {
+    padding: 18px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid green;
+    margin-bottom: 32px;
+    outline: none;
+    color: white;
+    font-size: 19px;
+    
+
+}
+::placeholder {
+    color: grey;
+    font-size: 26px;
+    font-weight: 400;
+}
